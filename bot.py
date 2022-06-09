@@ -32,7 +32,7 @@ def markov_viser():
 
 def msgsend(id, text, attach):
     vk.messages.send(
-        key = ("dea4d7ccceee551f288c01a8570a3370f0fc894f"),
+        key = (а нет),
         server = ("https://lp.vk.com/wh212885589"),
         ts=("50"),
         user_id = id,
@@ -43,7 +43,7 @@ def msgsend(id, text, attach):
 
 def msggsend(id, text, attach):
     vk.messages.send(
-        key = ("dea4d7ccceee551f288c01a8570a3370f0fc894f"),
+        key = (а нет),
         server = ("https://lp.vk.com/wh212885589"),
         ts=("50"),
         random_id = 0,
@@ -128,7 +128,7 @@ def send_photo(vk, peer_id, owner_id, photo_id, access_key):
 def send_photo_chat(vk, peer_id, owner_id, photo_id, access_key):
     attachment = f'photo{owner_id}_{photo_id}_{access_key}'
     vk.messages.send(
-        key = ("dea4d7ccceee551f288c01a8570a3370f0fc894f"),
+        key = (а нет),
         server = ("https://lp.vk.com/wh212885589"),
         ts=("50"),
         random_id = 0,
